@@ -1,0 +1,51 @@
+a{
+    
+    color:dodgerblue ;
+    
+}
+
+.myPage1{
+    
+    text-align: center;
+    margin-top: 60px;
+        
+}
+
+.myPage11{
+    
+    text-align: center;
+    
+        
+}
+
+.img2 {
+    
+    width: 152px;
+    height: 152 px;
+    border-radius: 100px;
+    
+}
+
+.myPage2{
+    
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+    text-align: left;
+        
+}
+.myP {
+    
+   display: inline-block;
+   margin-top: 2px;      
+        
+}
+.myPage22{
+    
+   padding-top: 30px;
+        
+}
+
+.pp{
+    font-size: 18px;
+}
