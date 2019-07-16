@@ -4,21 +4,21 @@ a{
     
 }
 
-.myPage1{
+.about-me{
     
     text-align: center;
     margin-top: 60px;
         
 }
 
-.myPage11{
+.contacts{
     
     text-align: center;
     
         
 }
 
-.img2 {
+.contacts__image {
     
     width: 152px;
     height: 152 px;
@@ -26,7 +26,7 @@ a{
     
 }
 
-.myPage2{
+.contacts__content{
     
     display: inline-block;
     vertical-align: top;
@@ -34,18 +34,18 @@ a{
     text-align: left;
         
 }
-.myP {
+.contacts__site {
     
    display: inline-block;
    margin-top: 2px;      
         
 }
-.myPage22{
+.contacts__photo{
     
    padding-top: 30px;
         
 }
 
-.pp{
+.about-me__name{
     font-size: 18px;
 }
