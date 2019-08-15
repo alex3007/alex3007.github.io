@@ -5,35 +5,51 @@
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="les.css">
+    <link rel="stylesheet" href="wowanimate.css">
 
 
-    <script src="les.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+    <script src="grad.js" ></script>
 
 </head>
 
 <body>
 
 
-    <div class="about-me">
 
-        <h2> Hello! </h2>
-        <p class="about-me__name">My name is <b>Alex Haurylchyk</b> and I'm <b>Front-End developer.</b></p><br><br>
-        <a href="aliaksei_haurylchyk_cv.docx" download >You can look my CV here</a> <br><br><br> 
+    <div class="about-me">
+       
+           <div class="item wow rubberBand " data-wow-duration="1.0s" data-wow-delay="0.5s" > 
+         
+           <h1> Hello! </h1></div>
+       
+        
+        <div class="item wow fadeInRight" data-wow-duration="2.0s"> <h3 class="about-me__name">  My name is <b>Alex Haurylchyk</b> and I'm <b>Front-End developer.</b></h3></div><br><br>
+       
+        
+       <div class="item wow fadeInLeft" data-wow-duration="2.0s"> <a class="cv" href="aliaksei_haurylchyk_cv.docx" download >You can look my CV here</a></div> <br><br><br> 
         
     </div>
        
     <div class="contacts">
-    <div class="contacts__content">    
+    <div class="contacts__content item wow fadeInUp" data-wow-duration="2.0s" data-wow-delay="1.2s">    
 
         <img class="contacts__image" src="a1.jpg"><br><br>
 
     </div>
 
     <div class="contacts contacts__content">
-        <p><b>Scipe:</b> alexg3007</p>
-        <p><b>E-mail:</b> ahaur307@gmail.com</p>
-        <p class="contacts__site"><b>LinkedIn:</b></p><a href=http://www.linkedin.com/in/ahaurylchyk>&nbsp ahaurylchyk </a>
-        <hr/>
-        <p class="contacts__site"><b>Portfolio :</b></p><a href=http://alex300785.ws2.parkingby.icu>&nbsp AlexG</a> </div>
+        <p class="item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="1.4s"><b>E-mail:</b> ahaur307@gmail.com</p>
+        <p class="item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="1.2s" ><b>Scipe:</b> alexg3007</p>
+        <a class=" buttonL item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="1.6s" href=http://www.linkedin.com/in/ahaurylchyk>LinkedIn</a> <br><br>
+        <a class="buttonP item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="2.0s" href=http://alex300785.ws2.parkingby.icu>Portfolio</a> </div>
         </div>
+	
+
+    
+          
           </body> </html>

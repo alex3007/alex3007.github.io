@@ -1,8 +1,69 @@
-a{
-    
-    color:dodgerblue ;
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-65deg, #811adb, #b11adb, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+h3 {
+	color: #eee;
+	font-weight: 100;
+}
+
+h5 {
+	color:#eee;
+	font-weight:300;
+}
+
+b{
+    text-shadow: 1px 1px black;
     
 }
+
+
+a.cv{
+    color:white;
+    padding: 5px 33px;
+    border-radius: 15px;
+    background-color: rgba(242, 248, 248, 0.4); 
+    text-decoration: none;
+    
+    
+}
+
+a.cv:hover,a.buttonL:hover{
+    color:white;
+    background-color: rgba(242, 248, 248, 0.1);
+    text-decoration: none;
+}
+
 
 .about-me{
     
@@ -23,6 +84,9 @@ a{
     width: 152px;
     height: 152 px;
     border-radius: 100px;
+    border: 2px solid rgba(242, 248, 248, 0.6);
+   
+    
     
 }
 
@@ -47,5 +111,32 @@ a{
 }
 
 .about-me__name{
-    font-size: 18px;
+    font-size: 20px;
+}
+a.buttonL {
+    
+    color:white;
+    padding: 5px 35px;
+    border-radius: 15px;
+    background-color: rgba(242, 248, 248, 0.4); 
+    text-decoration: none;
+    color:azure 
+}
+
+
+
+a.buttonP {
+    
+    color:white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgba(242, 248, 248, 0.1); 
+    text-decoration: none;
+    padding: 5px 36px;
+    border: 1px double rgba(242, 248, 248, 0.6);
+    color:azure 
+}
+a.buttonP:hover {
+        background-color: rgba(242, 248, 248, 0.0); 
+    
 }
