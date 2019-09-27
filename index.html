@@ -1,56 +1,366 @@
-<!DOCTYPE HTML>
-<html lang="ru">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Ubuntu:300" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
 
-    <link rel="stylesheet" href="les.css">
-    <link rel="stylesheet" href="wowanimate.css">
+    <title>AlexHk &#8212; Portfolio</title>
 
+    <style type="text/css">
+        .imageA {
+            width: 50px;
+            margin-top: 20px;
+            margin-right: 15px;
+        }
 
-    <script src="wow.min.js"></script>
-    <script>
-        new WOW().init();
-
-    </script>
-    <script src="grad.js" ></script>
+    </style>
 
 </head>
 
 <body>
 
 
+    <!--Header menu-->
 
-    <div class="about-me">
-       
-           <div class="item wow rubberBand " data-wow-duration="1.0s" data-wow-delay="0.5s" > 
-         
-           <h1> Hello! </h1></div>
-       
-        
-        <div class="item wow fadeInRight" data-wow-duration="2.0s"> <p class="about-me__name">  My name is <b>Alex Haurylchyk</b> and I'm <b>Front-End developer.</b></p></div><br><br>
-       
-        
-       <div class="item wow fadeInLeft" data-wow-duration="2.0s"> <a class="cv" href="aliaksei_haurylchyk_cv.docx" download >You can look my CV here</a></div> <br><br><br> 
-        
-    </div>
-       
-    <div class="contacts">
-    <div class="contacts__content item wow fadeInUp" data-wow-duration="2.0s" data-wow-delay="1.2s">    
+    <header id="header">
 
-        <img class="contacts__image" src="a1.jpg"><br><br>
+        <div class=" headerBg">
+            <div id="navBar" class="container navbar navbar-expand-lg navbar-light">
+                <a class="navbarBrand" href="#">AlexHk</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    </div>
 
-    <div class="contacts contacts__content">
-        <p class="item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="1.4s"><b>E-mail:</b> ahaur307@gmail.com</p>
-        <p class="item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="1.2s" ><b>Scipe:</b> alexg3007</p>
-        <a class=" buttonL item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="1.6s" href="http://www.linkedin.com/in/ahaurylchyk">LinkedIn</a> <br><br>
-         <a class=" buttonG item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="1.8s" href="https://github.com/alex3007">GitHub</a> <br><br>
-		<a class="buttonP item wow fadeIn" data-wow-duration="2.0s" data-wow-delay="2.0s" href="http://alex300785.ws2.parkingby.icu">Portfolio</a> </div>
+                <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="navUl" class="navbar-nav ml-auto">
+                        <li class="nav-item active ">
+                            <a class="nav-link " href="index.html#greating">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#scills">My scills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contacts">Contacts</a></li>
+
+                    </ul>
+                </nav>
+            </div>
         </div>
-	
+    </header>
 
-    
-          
-          </body> </html>
+<!--Greeting-->
+    <section>
+        <div id="greating" >
+            <div class="header-wrapper">
+                <div class=" container align-holder ">
+                    <h1 class="hero-title">
+                        <br>Hello!
+                        <br>My name is Alex
+                        <br>and I am Front-End developer.</h1>
+                    <p class="header-subtitle"><br>You're welcome here!</p>
+                    <div class="header-buttons-wrapper"><a class="button-CV" dawnload href="aliaksei_haurylchyk_cv.docx">Download my CV</a></div>
+                </div>
+            </div>
+        </div>
+        <div class=" container-fluide content">
+            <div class="d-flex justify-content-around">">
+                <div class="col-md-4 text-center">
+                    <div class="">
+                        <img class="content-logo" src="images/f1.png" alt="" />
+                        <h5 class="content-logo-tittle">Front-End is cool!</h5>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="">
+                        <img class="content-logo " src="images/f2.png" alt="" />
+                        <h5 class="content-logo-tittle">Front-End is evolutionary!</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="">
+                        <img class="content-logo " src="images/f3.png" alt="" />
+                        <h5 class="content-logo-tittle">Front-End is creative!</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!--Target-->
+    <section>
+        <div class="container-fluide" style="background-color: #f5fafd; padding-bottom: 40px;">
+            <div class="container">
+                <div class="row ">
+                    <div class="col title-center">
+                        <h2 class="dawn-title">I'll do my best for productive cooperation!</h2>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center" style="align-items: flex-end;">
+                    <div>
+                        <img class="shadow p-3 mb-5 bg-white rounded" style="padding: 0px !important; 
+                    " src="images/it2.jpg" alt="">
+                    </div>
+                    <div style="
+                     margin: 0 -60px;
+                     z-index: 1;
+                 ">
+                        <img class="shadow p-3 mb-5 bg-white rounded" style="padding: 0px !important; " src="images/it3.jpg" alt="">
+                    </div>
+                    <div style="
+                padding-top: 20px;
+                 ">
+                        <img class="shadow p-3 mb-5 bg-white rounded" style="padding: 0px !important;" src="images/it4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!--Scills-->
+    <section>
+        <div id="scills" class="container container-bottom">
+            <div class="row">
+                <div class="col title-center">
+                    <h2 class="dawn-title">My scills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container col-shadow">
+                        <div class="row">
+                            <div class="col-md-3 card-image">
+                                <img src="images/2.png" />
+                            </div>
+                            <div class="col-md-9 card-text-block ">
+                                <h5 class="color2">Html 5 / CSS 3 / JavaScript Es6</h5>
+                                <p style="color: darkgrey"> Practical experience is about 1.5 year. Basically it is self-study and improvement </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container col-shadow">
+                        <div class="row">
+                            <div class="col-md-3 card-image">
+                                <img src="images/4.png" />
+                            </div>
+                            <div class="col-md-9 card-text-block">
+                                <h5 class="color2">Git / Bootstrap / React and Redux</h5>
+                                <p style="color: darkgrey"> Practical experience is about 5 monthes. Basically it is self-study and improvement </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" col-distance>
+                    <div class="container col-shadow">
+                        <div class="row">
+                            <div class="col-md-3 card-image">
+                                <img src="images/5.png" />
+                            </div>
+                            <div class="col-md-9 card-text-block ">
+                                <h5 class="color2">English courses</h5>
+                                <a href="" style="color: darkgrey"> Streamline school (PreIntermediate) </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container col-shadow">
+                        <div class="row">
+                            <div class="col-md-3 card-image">
+                                <img src="images/3.png" />
+                            </div>
+                            <div class="col-md-9 card-text-block">
+                                <h5 class="color2">React course</h5>
+                                <a style="color: darkgrey"> It-incubator ( www.it-incubator.by) </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluide" style="background-color: #f5fafd; padding: 40px 0;">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-5" style="text-align: center;">
+                        <img class=" shadow bg-white " style="border-radius: 200px !important;padding: 0px !important; margin-bottom: 0px !important; max-width: 200px;  " src="images/me.jpg" />
+                    </div>
+                    <div class="col-md-7">
+                        <div class="about-me">
+                            <h5 class="">About me </h5>
+                            <h2 class="">Crazy of frontend! <br />Developing all the time.<br /> Now I am practising with REACT</h2>
+                        </div>
+                    </div>
+                    <div class="row spaced-cols " data-type="row">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Portfolio-->
+    <section>
+        <div id="portfolio" class="portfolio" style="background-color: rgb(255, 255, 255); background-image: none;">
+            <div class="container">
+                <div class="container-borders">
+                    <div class="row ">
+                        <div class="col title-center">
+                            <h2 class="dawn-title">Portfolio</h2>
+                            <p class="lead">Here are a few of my projects </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 grid-posts">
+                            <div class="card">
+                                <div class="card-img-dark">
+                                    <div class="card-img">
+                                        <a href="https://stormy-island-29542.herokuapp.com">
+                                            <img src="images/4.jpg" class="card-img-top" alt="scool">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body card-text-align">
+                                    <h5 class="card-title">Social network</h5>
+                                    <p class="card-text"> React and Redux </p>
+                                    <a class="" href="https://github.com/alex3007/Social_network">See on GitHub </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 grid-posts">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href="Teaching/index.html">
+                                        <img src="images/5.jpg" class="card-img-top" alt="scool">
+                                    </a>
+                                </div>
+                                <div class="card-body card-text-align">
+                                    <h5 class="card-title">Business card of the IT-School</h5>
+                                    <p class="card-text"> Html5, CSS3, Bootstrap, Jquery( Owl-carousel, Fancybox, Isotope, onePageNav) </p>
+                                    <a class="" href="https://github.com/alex3007/Teaching">See on github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 grid-posts">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href="Production/index.html">
+                                        <img src="images/6.jpg" class="card-img-top" alt="scool">
+                                    </a>
+                                </div>
+                                <div class="card-body card-text-align">
+                                    <h5 class="card-title">Business card of the production organization</h5>
+                                    <p class="card-text"> Html5, CSS3, Bootstrap, Jquery(PrettyPhoto, Isotope, onePageNav) </p>
+                                    <a class="" href="https://github.com/alex3007/Production">See on github</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="row">
+                       <div class="col-md-4 grid-posts">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href="Blog/page1.html">
+                                        <img src="images/3.jpg" class="card-img-top" alt="scool">
+                                    </a>
+                                </div>
+                                <div class="card-body card-text-align">
+                                    <h5 class="card-title">Blog</h5>
+                                    <p class="card-text"> Html5, CSS3, Bootstrap </p>
+                                    <a class="" href="https://github.com/alex3007/Blog">See on github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 grid-posts">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href="Printing-service/index.html">
+                                        <img src="images/2.jpg" class="card-img-top" alt="scool">
+                                    </a>
+                                </div>
+                                <div class="card-body card-text-align">
+                                    <h5 class="card-title">Printing srvice</h5>
+                                    <p class="card-text"> Html5, CSS3, Jquery (Parallax, Wow, Modernizr) </p>
+                                    <a class="" href="https://github.com/alex3007/Printing-service">See on github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 grid-posts">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href="by3d.by/main.html">
+                                        <img src="images/1.jpg" class="card-img-top" alt="scool">
+                                    </a>
+                                </div>
+                                <div class="card-body card-text-align">
+                                    <h5 class="card-title">by3d.by (Business card and shop)</h5>
+                                    <p class="card-text"> Html5, CSS3, Jqery(Wow, Modernizr), PHP </p>
+                                    <a class="" href="https://github.com/alex3007/by3d.by">See on github</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Contacts-->
+    <section>
+        <div id="contacts">
+            <div class="container-fluide footer-wrapper">
+                <div class="row">
+                    <div class="col text-center color-tittle">
+                        <h2 class="dawn-title footer-tittle">Hire me!</h2>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center color-tittle">
+
+                    <div class="footer-p-margin">
+                        <p class="marginBottom">Phone: <br><br> E-mail: <br><br> Scipe: </p>
+                    </div>
+
+                    <div class="footer-p-margin" >
+                        <p class="marginBottom">+375 33 3325603<br><br> ahaur307@gmail.com <br><br> alexg3007 </p>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://github.com/alex3007"><img class="footer-image" src="images/git.png"></a>
+                    <a href="https://www.linkedin.com/in/ahaurylchyk/"><img class="footer-image" src="images/in.png"></a>
+                    <a href="https://vk.com/alexg3007"><img class="footer-image" src="images/vk.png"></a>
+                    <a href="https://t.me/Alex3007Hk"><img class="footer-image" src="images/telegr.png"></a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer-->
+
+    <footer>
+        <div class="container">
+            <p>2019&nbsp;Alex_Haurylchyk</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scrollMenu.js"></script>
+
+
+</body>
+
+</html>
