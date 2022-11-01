@@ -32,7 +32,7 @@ code {
 .Header_header__3BtYW {
     text-align: center;
     color: #fff;
-    background-color: #ebcc78;
+    background-color: #403109;
     padding-bottom: 5px;
     font-family: Gabriela
 }
@@ -105,7 +105,7 @@ code {
 .Item_item__1oEDa:hover {
     transition-duration: .3s;
     text-decoration: none;
-    box-shadow: 0 0 13px #004992
+    box-shadow: 0 0 13px #403109
 }
 
 .Item_flexItemsContainer__21HWA {
@@ -177,7 +177,7 @@ i:active {
     padding-left: 5px;
     padding-bottom: 5px;
     font-weight: 700;
-    color: #006cbe;
+    color: #403109;
     font-family: Gabriela
 }
 
@@ -187,7 +187,7 @@ i:active {
 
 .Sidebar_active__W9X9o,
 .Sidebar_link__1ftvh:hover {
-    background-color: #224b7a;
+    background-color: #403109;
     text-decoration: none;
     color: #fff
 }
