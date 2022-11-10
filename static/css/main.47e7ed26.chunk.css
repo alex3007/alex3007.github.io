@@ -47,7 +47,8 @@ code {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 350px
+    max-width: 350px;
+    background-color: #fff
 }
 
 .Items_startImage__3EMj4 {
@@ -101,7 +102,7 @@ code {
     border: 1px solid #616161;
     box-shadow: 0 0 13px;
     margin: 5px;
-    background-color: rgb(252, 234, 111, 0.4);
+    background-color: #fff
 }
 
 .Item_item__1oEDa:hover {
@@ -149,7 +150,7 @@ i:active {
     color: #692a03;
     padding: 5px 5px 10px 13px;
     margin: 0 10px 0 5px;
-    background-color: rgb(252, 234, 111, 0.4);
+    background-color: #fff;
     font-family: Gabriela
 }
 
@@ -165,7 +166,7 @@ i:active {
 
 .Sidebar_sidebar__3418F {
     width: 90px;
-    background-color: #fff;
+     background-color: rgb(252, 234, 111, 0.8);
     display: flex;
     flex-direction: column
 }
@@ -180,7 +181,7 @@ i:active {
     padding-left: 5px;
     padding-bottom: 5px;
     font-weight: 700;
-    color: #692a03;
+    color: #4f3e32;;
     font-family: Gabriela
 }
 
@@ -190,7 +191,7 @@ i:active {
 
 .Sidebar_active__W9X9o,
 .Sidebar_link__1ftvh:hover {
-    background-color: #692a03;
+    background-color: #4f3e32;
     text-decoration: none;
     color: #fff
 }
