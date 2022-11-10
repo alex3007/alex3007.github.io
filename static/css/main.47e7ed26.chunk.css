@@ -27,8 +27,7 @@ code {
 }
 
 .mainContainer {
-    margin: auto;
-    background-color: rgb(252, 234, 111, 0.3);
+    margin: auto
 }
 
 .Header_header__3BtYW {
@@ -101,7 +100,8 @@ code {
     border-radius: 30px;
     border: 1px solid #616161;
     box-shadow: 0 0 13px;
-    margin: 5px
+    margin: 5px;
+    background-color: rgb(252, 234, 111, 0.4);
 }
 
 .Item_item__1oEDa:hover {
@@ -149,6 +149,7 @@ i:active {
     color: #692a03;
     padding: 5px 5px 10px 13px;
     margin: 0 10px 0 5px;
+    background-color: rgb(252, 234, 111, 0.4);
     font-family: Gabriela
 }
 
