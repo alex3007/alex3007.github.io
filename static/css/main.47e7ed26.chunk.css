@@ -27,7 +27,8 @@ code {
 }
 
 .mainContainer {
-    margin: auto
+    margin: auto;
+    background-color: rgb(252, 234, 111, 0.3);
 }
 
 .Header_header__3BtYW {
